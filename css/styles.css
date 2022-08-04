@@ -11,5 +11,6 @@
 @import "screens/friends.css";
 
 body {
+  color: #2f363e;
   font-family: -apple-system;
 }
