@@ -9,7 +9,8 @@
 .find-icons {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .find-icons__icon {
@@ -18,9 +19,11 @@
   align-items: center;
 }
 
-.find-icons__icon-text {
-  margin-top: 20px;
-  width: 80px;
-  align-items: center;
-  text-align: center;
+.find-icons__icon span {
+  margin-top: 18px;
+}
+
+.find-rcf {
+  margin: 15px 0;
+  color: var(--gray);
 }
